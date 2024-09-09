@@ -11,4 +11,11 @@ if place == "forest":
     else: 
         print("You found a boat!")
 elif place == "cave":
-    print("You find a hidden treasure!")
+    action = input("light a torch or proceed in the dark? ")
+    if action == "light a torch":
+        print("You found a hidden treasure!")
+    else:
+        print("Beware of the what lurks in the dark...")
+
+
+# Task 2: Based on your corrected code from Task 1, expand the game. If the user chooses "cave", ask them if they want to "light a torch" or "proceed in the dark", and provide outcomes for each decision.
